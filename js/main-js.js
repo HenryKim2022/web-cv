@@ -266,7 +266,7 @@
   // /.ONLINE/OFFLINE CHECKER
 
 
-
+  //NAV LINK 
   $("#fb").click(function() {
     window.open(
       "https://www.facebook.com/profile.php?id=100025068874578", '_blank' 
@@ -286,14 +286,12 @@
   });
 
 
-
   // DOWNLOAD DIRECTLY FROM WEBHOST
-  $("#download-direct").click(function() {
+  $("#src-downloader").click(function() {
     window.open(
       "https://github.com/HenryKim2022/web-cv/archive/refs/heads/master.zip", '_blank' 
     );
   });
-
 
 
 

@@ -82,10 +82,9 @@ $Age = (date("md", date("U", mktime(0, 0, 0, $BirthD_alias[0], $BirthD_alias[1],
                 <img src="assets/img/profile-img-smaller.jpg" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light"><a href="<?= $base_Url ?>"><?= $Author ?></a></h1>
                 <div class="social-links mt-3 text-center">
-                    <a id="fb" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
-                    <a id="ig" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-                    <a id="github" class="github" target="_blank"><i class="bx bxl-github"></i></a>
-                    <a id="download-direct" class="download" target="_blank"><i class="bx bx-cloud-download" y></i></a>
+                    <a id="fb" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a id="ig" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a id="github" class="github"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
 
@@ -330,10 +329,10 @@ $Age = (date("md", date("U", mktime(0, 0, 0, $BirthD_alias[0], $BirthD_alias[1],
     </main><!-- End #main -->
 
 
-
-    <a id="theme-changer" class="d-flex align-items-center justify-content-center active" onclick="changeTheme()">
-        <i class="bx bx-sort-alt-2"></i>
+    <a id="src-downloader" class="src-downloader d-flex align-items-center justify-content-center active">
+        <i class="bx bx-cloud-download"></i>
     </a>
+
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center active">
         <i class="bi bi-arrow-up-short"></i>

@@ -965,7 +965,7 @@ section {
 }
 
 
-#theme-changer {
+#src-downloader {
     position: fixed;
     z-index: 999;
     opacity: 1;
@@ -980,17 +980,17 @@ section {
     transition: all 0.4s;
 }
 
-#theme-changer i {
+#src-downloader i {
     font-size: 28px;
     color: #fff;
     line-height: 0;
 }
 
-#theme-changer:hover {
+#src-downloader:hover {
     background: #2eafec;
     color: #fff;
 }
 
-#theme-changer.active {
+#src-downloader.active {
     visibility: visible;
 }
