@@ -920,8 +920,39 @@ section {
     }
 }
 
+/* Download Button */
+#src-downloader {
+    position: fixed;
+    z-index: 999;
+    opacity: 1;
+    left: calc(15px + 300px);
+    bottom: calc(15px);
+
+    z-index: 996;
+    background-color: rgba(20, 157, 221, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+#src-downloader i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+#src-downloader:hover {
+    background: #2eafec;
+    color: #fff;
+}
+
+#src-downloader.active {
+    visibility: visible;
+}
 
 
+/* Mobile */
 @media (max-width: 768px) {
     .contact {
         margin-right: 4%;
@@ -929,6 +960,10 @@ section {
 
     .maps {
         height: 100%;
+    }
+
+    #src-downloader {
+        left: calc(15px) !important;
     }
 }
 
@@ -962,35 +997,4 @@ section {
         width: auto;
         padding-right: 20px 15px;
     }
-}
-
-
-#src-downloader {
-    position: fixed;
-    z-index: 999;
-    opacity: 1;
-    left: calc(15px + 300px);
-    bottom: calc(15px);
-
-    z-index: 996;
-    background-color: rgba(20, 157, 221, 0.5);
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    transition: all 0.4s;
-}
-
-#src-downloader i {
-    font-size: 28px;
-    color: #fff;
-    line-height: 0;
-}
-
-#src-downloader:hover {
-    background: #2eafec;
-    color: #fff;
-}
-
-#src-downloader.active {
-    visibility: visible;
 }
