@@ -257,12 +257,13 @@ $Age = (date("md", date("U", mktime(0, 0, 0, $BirthD_alias[0], $BirthD_alias[1],
                     </div>
                 </div>
 
-                <div class="row portfolio-container aos-init" data-aos="fade-up" data-aos-delay="100" style="position: relative; height: 835.5px;">
+                <div class="row portfolio-container aos-init d-flex justify-content-between" data-aos="fade-up" data-aos-delay="100" style="position: relative; height: 835.5px;">
                     <?php {
                         include 'my_portfolio.php';
                     } ?>
 
                 </div>
+
 
             </div>
         </section><!-- End Portfolio Section -->
