@@ -364,16 +364,6 @@ $Age = (date("md", date("U", mktime(0, 0, 0, $BirthD_alias[0], $BirthD_alias[1],
 <!-- /.FOOTER COPYRIGHT GENERATOR -->
 
 
-<!-- Theme Changer -->
-<script>
-    function changeTheme() {
-
-    }
-</script>
-
-
-
-
 <!--  -->
 <!--  -->
 <!-- SCRIPT'S -->
