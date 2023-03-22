@@ -271,7 +271,7 @@ p.justify-text-only {
 #hero .hero-container {
     position: relative;
     z-index: 2;
-    min-width: 300px;
+    min-width: 45vw;
 }
 
 #hero h1 {
@@ -964,6 +964,10 @@ section {
 
     #src-downloader {
         left: calc(15px) !important;
+    }
+
+    #hero .hero-container {
+        min-width: 100vw;
     }
 }
 
